@@ -1,0 +1,103 @@
+<header>
+    <!--This part contains the introductory information-->
+<nav>
+    <a href="Page 1.html">Home</a>
+    <a href="L1.html">Help</a>
+    <a href="#s1">Jump to List 1</a>
+</nav>
+</header>
+<h1>The Best Gadgets</h1>
+<p>Phones
+<br>Tablets
+<br>Laptops</p>
+<h2>Order Now</h2>
+<button>Order</button><br>
+<button>Cancel</button>
+<!--This is the product image-->
+<p><img id="wallpaper" width="400px" height="200px" src="C:\Users\TIMMY\Desktop\My Code\HTML\Test.jpg">
+<br>
+<button onclick="wallpaper.src='wallpaper_left_C:\Users\TIMMY\Desktop\My Code\HTML\Test.jpg'">Change</button></p>
+<p><strong>This is a list</strong>
+    <br>
+        <li>Lenovo</li>
+        <li>DELL</li>
+        <li>HP</li>
+</p>
+<p><strong>This an Ordered List</strong>
+    <br>
+        <ol style="border: double green;">
+            <li style="border: double green;">ASUS</li>
+            <li>
+                <b style="border: double green;">SamSung</b>
+            </li>
+            <li>Acer</li>
+        </ol>
+</p>
+<p><strong>This an Unordered List</strong>
+    <br>
+        <ul>
+            <li>ASUS</li>
+            <li>SamSung</li>
+            <li>Acer</li>
+        </ul>
+</p>
+<!--This is how to write an Unordered list inside an ordered list-->
+<p><strong>This an Ordered List</strong>
+    <br>
+        <ol>
+            <li>ASUS</li>
+            <li>SamSung</li>
+            <li>Acer</li>
+                <ul>
+                    <li id="s1">i3</li>
+                    <li>i5</li>
+                    <li>i7</li>
+                    <li>i9</li>
+                </ul>
+        </ol>
+</p>
+<!--This is used for single page websites to take ther user back to the top page -->
+<button onclick="alert('Your going back to top')"><a href="#">Back to top</a></button>
+
+<form>
+    <!--Input elements inside here-->
+    <label>Email:</label><input type="text"><br>
+   <label for="radio 1">Male</label> <input type="radio" id="radio 1"><br>
+   <label for="radio 2">Female</label> <input type="radio" id="radio 2"><br> 
+   <label>Accept</label><input type="checkbox">
+</form>
+<p><b>THE TABLE BELLOW</b></p>
+<table style="border: solid;">
+    <!--This creates a table-->
+    <tr>
+        <th style="border: solid;">Ginger</th>
+        <th style="border: solid;"> Name</th> <th style="border: solid;"> Sex</th>
+        <!--This is used to create a row-->
+      
+    </tr>
+    <tr style="border: solid;">
+        <!--This is used to create a row-->
+        <td style="border: solid;">
+            c3<!--This is a data cell container tag-->
+        </td>
+        <td style="border: solid;">
+            c4
+        </td>
+        <td style="border: solid;" rowspan="3">v4 :002</td>
+    </tr>
+    <tr style="border: solid;">
+        <!--This is used to create a row-->
+        <td style="border: solid;">
+           c5 <!--This is a data cell container tag-->
+        </td>
+        <td style="border: solid;">
+           c6 
+        </td>
+    </tr>
+    <tr>
+        <td style="border: solid;" colspan="2">v5: 001</td>
+    </tr>
+</table>
+<img id="i1" width="400px" height="200px" src="Test.jpg"><br>
+<button onclick="i1.src='Test.jpg'">Previous</button>
+<button onclick="i1.src='hh.jpg'">Next</button>
